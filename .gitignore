@@ -1,63 +1,13 @@
-```
-# Build artifacts
-build/
-*.apk
-*.aar
-*.jar
-*.class
-
-# Dependencies
+.gdb_history
+bin
+libs
+obj
 .gradle/
-node_modules/
-vendor/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Java/Gradle
-*.class
-*.war
-*.ear
-hs_err_pid*
-replay_pid*
-
-# Distribution / packaging
-*.tar.gz
-*.zip
-*.deb
-*.rpm
-
-# Temporary folders
-tmp/
-temp/
-```
+.code/
+.kotlin/
+**/*.iml
+build/
+local.properties
+ndk.properties
+*~
